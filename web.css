@@ -1,0 +1,20 @@
+/* web.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #00ff00; /* Bright green color */
+    text-shadow: 
+        3px 3px 0 #007700, /* Darker green shadow for 3D effect */
+        6px 6px 0 #005500, /* Even darker green shadow */
+        9px 9px 0 #003300; /* Darkest green shadow */
+    transform: perspective(500px) rotateX(20deg); /* Slight 3D tilt */
+}
